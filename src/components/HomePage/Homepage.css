@@ -1,0 +1,27 @@
+.image-side img{
+    width: 700px;
+}
+.product-contain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px
+}
+
+.text-1{
+    color: rgba(114, 46, 25, 0.827);
+}
+.text-2{
+    color: rgba(49, 3, 92, 0.655);
+}
+
+.detail{
+ margin-top: 40px;
+ margin-right: 40px;
+}
+.detail p{
+    text-align: justify;
+    font-weight: 600;
+}
+.tag-name{
+    margin-top: 40px;
+}

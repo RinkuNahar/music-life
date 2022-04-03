@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Sony Headphones & Headsets",
+      "review": "It is so light weight",
+      "ratings": "4.5/5",
+      "img":"https://img.freepik.com/free-photo/headphones-audio-listen_1203-7566.jpg?t=st=1649012456~exp=1649013056~hmac=6b9218867e46db65fce6a69a7f52cfebd70be28d1e694b9f2535b97575fa7085&w=360"
+    },
+    {
+      "name": "Sennheiser Headphones & Headsets",
+      "review": "Sound quality is so good",
+      "ratings": "5/5",
+      "img":"https://img.freepik.com/free-psd/creative-headphone-mockup_1310-744.jpg?t=st=1649012456~exp=1649013056~hmac=9e3033d880a0751b34e00e899f18f6e9a52262a20aa8fc8841c45e04b9156277&w=996"
+    },
+    {
+      "name": "JBL Headphones & Headsets",
+      "review": "I am using it for 2 years still it's running",
+      "ratings": "4.3/5",
+      "img":"https://img.freepik.com/free-photo/headphones-audio-listen_74190-571.jpg?t=st=1649012456~exp=1649013056~hmac=91a936a61202204703a9347a4e4c77b3ec5b93ce6e62101245d4d477db4ee824&w=996"
+    },
+    {
+      "name": "Beats Headphones & Headsets",
+      "review": "Comfortable to wearr it",
+      "ratings": "4.5/5",
+      "img":"https://img.freepik.com/free-vector/headphones-background-design_1063-131.jpg?t=st=1649012456~exp=1649013056~hmac=5f02a7cbd683e9cc1a77d2eaf7aebafacb15e87ccc89715bc5066dbdf4e09897&w=740"
+    },
+    {
+      "name": "iBall Headphones & Headsets",
+      "review": "One of the best headphones in a lower price",
+      "ratings": "4/5",
+      "img":"https://img.freepik.com/free-psd/headphone-mockup_187299-1162.jpg?w=740"
+    },
+    {
+      "name": "Bose Headphones & Headsets",
+      "review": "It feels good to use that",
+      "ratings": "5/5",
+      "img":"https://img.freepik.com/free-photo/recording-human-icon-stereo-wireless_1232-3551.jpg?t=st=1649012456~exp=1649013056~hmac=f24ea85cd2d76fce14b7ec35b3b235cdd70b70e3ccc3625f444b27a7cc830751&w=740"
+    }
+  ]
