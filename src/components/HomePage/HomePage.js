@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Image from '../../images/heading.jpg';
 import Product from '../Product/Product';
 import './Homepage.css'
@@ -10,6 +11,8 @@ const HomePage = () => {
         .then(res=>res.json())
         .then(data=>setProducts(data));
     },[]);
+
+
     return (
        <div>
             <div className='d-flex homepage-container container mt-4'>
@@ -30,12 +33,21 @@ const HomePage = () => {
         <section className='product-contain'>
       
         {
-              products.map(product=> <Product product={product} key={product.name} ></Product>)
+              products.slice(0,3).map(product=> <Product product={product} key={product.name} >
+                 <div className='review-button'>
+                 <Link to="/reviews" >
+                     <button>Review Items</button>
+                 </Link>
+                 </div>
+              </Product>)
           }
         </section>
 
        </div>
     );
 };
+
+
+// const sliceNum = phones.slice(0,20);
 
 export default HomePage;

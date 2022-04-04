@@ -11,6 +11,7 @@ const Product = (props) => {
            <h3>{name}</h3>
            <h5>{review}</h5>
            <h5>Ratings: {ratings}</h5>
+           {props.children}
        </div>
       </div>
     );

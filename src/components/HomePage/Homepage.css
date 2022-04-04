@@ -25,3 +25,7 @@
 .tag-name{
     margin-top: 40px;
 }
+
+.review-button{
+    display: none;
+}
