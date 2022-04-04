@@ -1,7 +1,6 @@
 import React from 'react';
 import './Product.css';
 const Product = (props) => {
-    
     const {name, img, review, ratings} = props.product;
     return (
       <div className='container'>
