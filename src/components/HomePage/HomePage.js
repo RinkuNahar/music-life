@@ -29,19 +29,21 @@ const HomePage = () => {
         <div className='tag-name'>
             <h1>Customer Review</h1>
         </div>
-
+        
         <section className='product-contain'>
       
         {
               products.slice(0,3).map(product=> <Product product={product} key={product.name} >
-                 <div className='review-button'>
-                 <Link to="/reviews" >
-                     <button>Review Items</button>
-                 </Link>
-                 </div>
+              
               </Product>)
           }
         </section>
+
+        <div className=' mt-4 mb-4'>
+                 <Link to="/reviews" >
+                     <button className='review-button border-0 p-2'>See More</button>
+                 </Link>
+                 </div>
 
        </div>
     );
