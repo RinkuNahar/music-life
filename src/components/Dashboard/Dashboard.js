@@ -1,6 +1,6 @@
 import React from 'react';
 import { CartesianGrid, Legend, Line, LineChart, XAxis, YAxis } from 'recharts';
-
+import './Dashboard.css'
 const Dashboard = () => {
     const data = [
         {
@@ -42,10 +42,10 @@ const Dashboard = () => {
     ]
     console.log(data);
     return (
-      <div className='container '>
-         
-            <div className='chart-1 mx-auto'>
-            <h1 className='text-danger mt-4 '>Tiny Line Chart</h1>
+      <div className='container mb-4 '>
+           <h1 className='text-danger mt-4 text-decoration-underline'>Tiny Line Chart</h1>
+            <div className='chart-1 '>
+          
           <LineChart width={500} height={600} data={data} className="mt-4" >
             <Line  dataKey={'investment'} stroke="#8884d8"  ></Line>
             <XAxis dataKey="month"></XAxis>
@@ -54,8 +54,10 @@ const Dashboard = () => {
           </LineChart>
         </div>
 
+        
+        <h1 className='text-danger mt-4 text-decoration-underline'>Simple Line Chart</h1>
          <div className='chart-2'>
-         <h1 className='text-danger mt-4 '>Simple Line Chart</h1>
+        
         <LineChart width={600} height={300} data={data} className="mt-4" margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
         <Line type="monotone" dataKey={'investment'} stroke="#8884d8" />
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />

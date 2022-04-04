@@ -27,7 +27,7 @@ const HomePage = () => {
         </div>
 
         <div className='tag-name'>
-            <h1>Customer Review</h1>
+            <h1 className='review-heading'>Customer Review</h1>
         </div>
         
         <section className='product-contain'>

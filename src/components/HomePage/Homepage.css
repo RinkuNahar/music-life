@@ -23,7 +23,8 @@
     font-weight: 600;
 }
 .tag-name{
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 .review-button{
@@ -32,4 +33,9 @@
    font-size: x-large;
    border-radius: 10px;
    box-shadow: 10px 5px rgba(128, 128, 128, 0.237);
+}
+
+.review-heading{
+    color: rgba(8, 8, 91, 0.744);
+   
 }
